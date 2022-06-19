@@ -1,0 +1,4 @@
+*.in
+*.sol
+__pycache__/
+
