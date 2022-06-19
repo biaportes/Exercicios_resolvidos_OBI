@@ -2,8 +2,10 @@ from subprocess import Popen
 from subprocess import PIPE
 import os
 
+# pasta do gabarito baixada do site da OBI para submeter o algoritmo a teste
 questao = 'show'
-path="2022f1p1_"+questao+"/"
+fase_nivel = "2022f1p1_"
+path= fase_nivel + questao+"/"
 OBI_solution = questao+'.py'
 
 #for num_pasta in range(1,6):
